@@ -62,13 +62,13 @@ let jsonData = `[
     {
         "Name": "Infectio",
         "Difficulty": "5",
-        "Type": "Puzzle",
+        "Type": "r",
         "Preview": "https://i.ibb.co/NSY2k1c/e.png",
         "Play": "../TR_Gamevity/Pages/Games/Infectio/index.html",
         "Open": "index.html",
         "Date": "02/18/23",
         "Time": "05:40 PM",
-        "Status": "Available",
+        "Status": "zzz",
 	    "ID": "2"
     }
 ]`
@@ -96,7 +96,7 @@ function search_jsonData() {
             }
 
             console.log(counts);
-            document.getElementById("A_Contents").innerHTML = counts[obj.ID.includes("1")];
+            document.getElementById("A_Contents").innerHTML = counts[obj.Status.includes("Available").length];
 
             const elem = document.createElement("p")
 
