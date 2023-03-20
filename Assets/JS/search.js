@@ -96,7 +96,7 @@ function search_jsonData() {
             }
 
             console.log(counts);
-            document.getElementById("A_Contents").innerHTML = counts[obj.Status.includes("Available").length];
+            document.getElementById("A_Contents").innerHTML = counts[obj.length];
 
             const elem = document.createElement("p")
 
