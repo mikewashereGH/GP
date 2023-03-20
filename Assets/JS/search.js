@@ -91,7 +91,7 @@ function search_jsonData() {
         ) {
             const counts = {};
 
-            for (const num of obj.Name.toLowerCase().includes(input)) {
+            for (const num of obj.Name) {
                 counts[num] = counts[num] ? counts[num] + 1 : 1;
             }
 
