@@ -1,0 +1,8 @@
+Game Status Key
+    M0 = Maintenance     [ Being Fixed / Updated   ]
+    A0 = Available       [ Currently Available     ]
+    C0 = Coming Soon     [ Being Made / Prepared   ]
+    R0 = Retiring Soon   [ Retiring From The List  ]
+    R1 = Retired         [ Can't Be Played Anymore ]
+    I0 = Big Issues      [ You Will Encounter Bugs ]
+    I1 = Small Issues    [ You May Encounter Bugs  ]
