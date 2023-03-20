@@ -1,28 +1,7 @@
 let jsonData = `[
     {
-        "Name": "Crossy Road",
-        "Type": "Arcade",
-        "Preview": "https://play-lh.googleusercontent.com/V31nfvzNcu_47lr8y2L7m3uw9azrpGyox88gpzhQxwfZSXliFJmIRVSlYJL1eOo_X2U",
-        "Play": "../TR_Gamevity/Pages/Games/Crossy_Road/index.html",
-        "Open": "index.html",
-        "Date": "02/18/23",
-        "Time": "01:43 PM",
-        "Status": "I0",
-	    "ID": "NA"
-    },
-    {
-        "Name": "Tower Blocks",
-        "Type": "Strategy",
-        "Preview": "https://androidcommunity.com/wp-content/uploads/2016/02/featured-stack.jpg",
-        "Play": "../TR_Gamevity/Pages/Games/Tower_Blocks/index.html",
-        "Open": "index.html",
-        "Date": "02/18/23",
-        "Time": "05:22 PM",
-        "Status": "I0",
-	    "ID": "NA"
-    },
-    {
         "Name": "Infectio",
+        "Difficulty": "5",
         "Type": "Puzzle",
         "Preview": "https://i.ibb.co/NSY2k1c/e.png",
         "Play": "../TR_Gamevity/Pages/Games/Infectio/index.html",
@@ -30,17 +9,6 @@ let jsonData = `[
         "Date": "02/18/23",
         "Time": "05:40 PM",
         "Status": "A0",
-	    "ID": "NA"
-    },
-    {
-        "Name": "Path Finder",
-        "Type": "Strategy",
-        "Preview": "https://i.ibb.co/tQySgz9/Screenshot-2023-02-22-19-08-07.png",
-        "Play": "../TR_Gamevity/Pages/Games/Path_Finder/index.html",
-        "Open": "index.html",
-        "Date": "02/22/23",
-        "Time": "07:09 PM",
-        "Status": "I1",
 	    "ID": "NA"
     }
 ]`
@@ -81,15 +49,15 @@ function search_jsonData() {
                     </div>
                 </div>
                 <div class="project-box-content-header">
-                    <p class="box-content-header">Web Designing</p>
-                    <p class="box-content-subheader">Prototyping</p>
+                    <p class="box-content-header">${obj.Name}</p>
+                    <p class="box-content-subheader">${obj.Type}</p>
                 </div>
                 <div class="box-progress-wrapper">
-                    <p class="box-progress-header">Progress</p>
+                    <p class="box-progress-header">Difficulty</p>
                     <div class="box-progress-bar">
-                        <span class="box-progress" style="width: 60%; background-color: #ff942e"></span>
+                        <span class="box-progress" style="width: ${obj.Difficulty}%; background-color: #ff942e"></span>
                     </div>
-                    <p class="box-progress-percentage">60%</p>
+                    <p class="box-progress-percentage">${obj.Difficulty}%</p>
                 </div>
                 <div class="project-box-footer">
                     <div class="participants">
@@ -106,7 +74,7 @@ function search_jsonData() {
                         </button>
                     </div>
                     <div class="days-left" style="color: #ff942e;">
-                        2 Days Left
+                        ${obj.Status}
                     </div>
                 </div>
             </div>
