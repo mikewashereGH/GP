@@ -9,7 +9,7 @@ let jsonData = `[
         "Date": "02/18/23",
         "Time": "05:40 PM",
         "Status": "Available",
-	    "ID": "NA"
+	    "ID": "1"
     },
     {
         "Name": "Infectio",
@@ -21,7 +21,7 @@ let jsonData = `[
         "Date": "02/18/23",
         "Time": "05:40 PM",
         "Status": "Available",
-	    "ID": "NA"
+	    "ID": "1"
     },
     {
         "Name": "Infectio",
@@ -33,7 +33,7 @@ let jsonData = `[
         "Date": "02/18/23",
         "Time": "05:40 PM",
         "Status": "Available",
-	    "ID": "NA"
+	    "ID": "1"
     },
     {
         "Name": "Infectio",
@@ -45,7 +45,7 @@ let jsonData = `[
         "Date": "02/18/23",
         "Time": "05:40 PM",
         "Status": "Available",
-	    "ID": "NA"
+	    "ID": "2"
     },
     {
         "Name": "Infectio",
@@ -57,7 +57,7 @@ let jsonData = `[
         "Date": "02/18/23",
         "Time": "05:40 PM",
         "Status": "Available",
-	    "ID": "NA"
+	    "ID": "1"
     },
     {
         "Name": "Infectio",
@@ -69,7 +69,7 @@ let jsonData = `[
         "Date": "02/18/23",
         "Time": "05:40 PM",
         "Status": "Available",
-	    "ID": "NA"
+	    "ID": "2"
     }
 ]`
 
@@ -96,7 +96,7 @@ function search_jsonData() {
             }
 
             console.log(counts);
-            document.getElementById("A_Contents").innerHTML = counts[obj.Name];
+            document.getElementById("A_Contents").innerHTML = counts[obj.includes("1")];
 
             const elem = document.createElement("p")
 
