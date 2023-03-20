@@ -8,7 +8,7 @@ let jsonData = `[
         "Open": "index.html",
         "Date": "02/18/23",
         "Time": "05:40 PM",
-        "Status": "A0",
+        "Status": "Available",
 	    "ID": "NA"
     }
 ]`
@@ -78,7 +78,7 @@ function search_jsonData() {
                     </div>
                 </div>
             </div>
-        </div>j
+        </div>
                 `
             x.appendChild(elem)
         }
