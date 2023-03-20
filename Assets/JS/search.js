@@ -34,42 +34,6 @@ let jsonData = `[
         "Time": "05:40 PM",
         "Status": "Available",
 	    "ID": "1"
-    },
-    {
-        "Name": "Infectio",
-        "Difficulty": "5",
-        "Type": "Puzzle",
-        "Preview": "https://i.ibb.co/NSY2k1c/e.png",
-        "Play": "../TR_Gamevity/Pages/Games/Infectio/index.html",
-        "Open": "index.html",
-        "Date": "02/18/23",
-        "Time": "05:40 PM",
-        "Status": "Available",
-	    "ID": "2"
-    },
-    {
-        "Name": "Infectio",
-        "Difficulty": "5",
-        "Type": "Puzzle",
-        "Preview": "https://i.ibb.co/NSY2k1c/e.png",
-        "Play": "../TR_Gamevity/Pages/Games/Infectio/index.html",
-        "Open": "index.html",
-        "Date": "02/18/23",
-        "Time": "05:40 PM",
-        "Status": "Available",
-	    "ID": "1"
-    },
-    {
-        "Name": "Infectio",
-        "Difficulty": "5",
-        "Type": "r",
-        "Preview": "https://i.ibb.co/NSY2k1c/e.png",
-        "Play": "../TR_Gamevity/Pages/Games/Infectio/index.html",
-        "Open": "index.html",
-        "Date": "02/18/23",
-        "Time": "05:40 PM",
-        "Status": "zzz",
-	    "ID": "2"
     }
 ]`
 
