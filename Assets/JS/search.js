@@ -13,7 +13,7 @@ let jsonData = `[
     },
     {
         "Name": "Infectio",
-        "Difficulty": "5",
+        "Difficulty": "50",
         "Type": "Puzzle",
         "Preview": "https://i.ibb.co/NSY2k1c/e.png",
         "Play": "../TR_Gamevity/Pages/Games/Infectio/index.html",
@@ -25,7 +25,7 @@ let jsonData = `[
     },
     {
         "Name": "Infectio",
-        "Difficulty": "5",
+        "Difficulty": "100",
         "Type": "Puzzle",
         "Preview": "https://i.ibb.co/NSY2k1c/e.png",
         "Play": "../TR_Gamevity/Pages/Games/Infectio/index.html",
