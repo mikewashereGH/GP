@@ -89,6 +89,14 @@ function search_jsonData() {
             obj.Type.toLowerCase().includes(input) ||
             obj.Status.toLowerCase().includes(input)
         ) {
+            const counts = {};
+
+            for (const num of obj.Name.toLowerCase().includes(input)) {
+                counts[num] = counts[num] ? counts[num] + 1 : 1;
+            }
+
+            console.log(counts);
+            console.log(counts[5], counts[2], counts[9], counts[4]);
             const elem = document.createElement("p")
 
             elem.innerHTML = `
