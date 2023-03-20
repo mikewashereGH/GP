@@ -524,7 +524,7 @@ a {
 
 .project-boxes.jsListView .project-box {
     display: flex;
-    border-radius: 10px;
+    border-radius: 8px; /* 10px */
     position: relative;
 }
 
@@ -583,7 +583,7 @@ a {
 
 .project-box {
     --main-color-card: #dbf6fd;
-    border-radius: 30px;
+    border-radius: 10.5px; /* 30px */
     padding: 16px;
     background-color: var(--main-color-card);
 }
